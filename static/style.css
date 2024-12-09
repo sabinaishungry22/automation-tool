@@ -1,0 +1,115 @@
+/* Form Group Styling */
+
+/* h2 Styling */
+h2 {
+    color: #333; /* Neutral dark color */
+    background-color: #f9f9f9; /* Light background */
+}
+
+/* Form Group Container */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label Styling */
+.form-group label {
+    font-weight: bold;
+    color: #333; /* Neutral dark text */
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+ 
+/* Input Field Styling */
+.form-group input {
+    color: #333;
+    border-radius: 4px; /* Smooth corners */
+    background-color: #f9f9f9; /* Light neutral background */
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Select Dropdown Styling */
+.form-group select {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    color: #333; /* Neutral text */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Smooth corners */
+    background-color: #f9f9f9; /* Light background */
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+/* Hover and Focus Effects */
+.form-group select:hover,
+.form-group select:focus {
+    border-color: #999; /* Slightly darker border */
+    outline: none;
+    background-color: #fff; /* Pure white background */
+}
+
+/* Disabled Option Styling */
+.form-group select option:disabled {
+    color: #999; /* Light grey for disabled options */
+}
+
+/* Option Styling */
+.form-group select option {
+    padding: 8px;
+}
+
+/* Button Styling */
+.btn.btn-primary {
+    background-color: #555; /* Neutral dark button */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Spacing */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for the button */
+.btn.btn-primary:hover {
+    background-color: #777; /* Slightly lighter dark color */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Loading Spinner Centering */
+.spinner-border {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Loading Page Styling */
+.loading-container {
+    text-align: center;
+    padding-top: 50px;
+    color: #333; /* Neutral dark text */
+    font-family: Arial, sans-serif; /* Clean font style */
+}
+
+.loading-message {
+    font-size: 1.2em;
+    color: #666; /* Slightly lighter neutral text */
+    margin-bottom: 15px;
+}
+
+/* Progress Bar Styling */
+.cute-progress-bar {
+    width: 70%;
+    margin: 0 auto;
+    height: 20px;
+    background-color: #e0e0e0; /* Light neutral background */
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.cute-progress-bar .progress-bar {
+    background-color: #999; /* Neutral dark progress bar */
+}

@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Data Processed Successfully!</h2>
+<p>Your file has been processed. Click below to download.</p>
+<a href="{{ url_for('download_file', filename='processed_file.xlsx') }}" class="btn btn-primary">Download Processed File</a>
+{% endblock %}
